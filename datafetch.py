@@ -39,7 +39,7 @@ if __name__=='__main__':
     #sbin['sma']=SMA(sbin,2)
     df=(into_week(data))
     #print(sbin)
-    output_file("test.html")
+    output_file("index.html")
     p1 = figure()
     p1 = figure(x_axis_type="datetime", title="Stock Closing Prices")
     p1.grid.grid_line_alpha = 0.3
